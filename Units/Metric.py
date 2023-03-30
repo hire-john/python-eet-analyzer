@@ -1,6 +1,6 @@
-class Units:
+class Metric:
 
-    def metric(self, metric):
+    def base_ten(self, metric):
         result = 0
         match metric:
             case "deka":
